@@ -21,15 +21,18 @@ export default async function RootLayout({
 
   return (
     <html lang="en">
-      <body className="max-w-3xl mx-auto py-10">
-        <header className="flex items-center justify-between">
+      <body className="max-w-3xl mx-auto py-3 ">
+        <header className="flex items-center justify-between border-b-2 rounded-b-lg">
           <Link
             href="/"
-            className="bg-gradient-to-r from-green-600 via-teal-500 to-sky-600 bg-clip-text text-transparent text-lg font-bold"
+            className="bg-gradient-to-t from-text-300 via-sky-500 to-transparent bg-clip-text text-transparent text-xl font-bold"
           >
-            My Projects
+            My Portfolio
           </Link>
-          <div className="flex items-center gap-5 text-sm text-cyan-600">
+          <div
+            className="flex items-center gap-3
+         text-md text-cyan-600"
+          >
             {pages.map((page) => (
               <Link
                 key={page._id}
