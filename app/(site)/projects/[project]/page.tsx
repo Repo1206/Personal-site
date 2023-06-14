@@ -22,7 +22,7 @@ export default async function Project({ params }: Props) {
           title="View Project"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-gray-100 rounded-lg text-gray-500 font-bold py-3 px-4 whitespace-nowrap hover:bg-sky-500 hover:text-sky-100 transition"
+          className="bg-text-300 rounded-lg text-gray-200 font-bold py-3 px-4 whitespace-nowrap hover:bg-sky-500 hover:text-sky-100 transition"
         >
           {" "}
           View Project
@@ -30,7 +30,7 @@ export default async function Project({ params }: Props) {
       </header>
 
       {/* content goes here */}
-      <div className="text-lg text-cyan-700 mt-5">
+      <div className="text-lg text-sky-200 mt-5">
         <PortableText value={project.content} />
       </div>
 
@@ -40,7 +40,7 @@ export default async function Project({ params }: Props) {
         alt={project.name}
         width={1920}
         height={1080}
-        className=" mt-10 border-2 border-cyan-700 object-cover rounder-xl"
+        className=" mt-10 border-2 border-sky-700 object-cover rounder-xl"
       />
     </div>
   );

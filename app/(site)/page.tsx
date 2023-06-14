@@ -36,7 +36,7 @@ export default async function Home() {
                 className="object-cover rounded-lg border border-gray-500"
               />
             )}
-            <div className="mt-2 font-extrabold bg-gradient-to-r from-green-600 via-teal-500 to-sky-600 bg bg-clip-text text-transparent ">
+            <div className="mt-2 font-extrabold bg-gradient-to-t from-text-300 via-sky-500 to-transparent bg bg-clip-text text-transparent ">
               {project.name}
             </div>
           </Link>

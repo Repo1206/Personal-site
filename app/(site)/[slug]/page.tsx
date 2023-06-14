@@ -10,7 +10,7 @@ export default async function Page({ params }: Props) {
       <h1 className="bg-gradient-to-r bg-gradient-to-t from-text-300 via-sky-500 to-transparent bg-clip-text text-transparent text-5xl drop-shadow font-extrabold">
         {page.title}
       </h1>
-      <div className="text-lg text-sky-100 mt-10">
+      <div className="text-lg text-sky-100 mt-10 pe-8">
         <PortableText value={page.content} />
       </div>
     </div>

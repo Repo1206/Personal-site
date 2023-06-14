@@ -25,13 +25,13 @@ export default async function RootLayout({
         <header className="flex items-center justify-between border-b-2 rounded-b-lg">
           <Link
             href="/"
-            className="bg-gradient-to-t from-text-300 via-sky-500 to-transparent bg-clip-text text-transparent text-xl font-bold"
+            className="bg-gradient-to-t from-text-300 via-sky-500 to-transparent bg-clip-text text-transparent text-3xl font-bold"
           >
             My Portfolio
           </Link>
           <div
             className="flex items-center gap-3
-         text-md text-cyan-600"
+         text-md text-sky-600"
           >
             {pages.map((page) => (
               <Link
